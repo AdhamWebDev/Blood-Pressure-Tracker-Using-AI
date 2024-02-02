@@ -1,0 +1,15 @@
+
+  .gender_option {
+    cursor: pointer;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s;
+  }
+  
+  .gender_option:hover {
+    border-color: #1592e5;
+  }
+  
+  .gender_option.selected {
+    border-color: #1592e5;
+  }
+  

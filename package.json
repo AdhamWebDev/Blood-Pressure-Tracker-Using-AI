@@ -1,0 +1,19 @@
+{
+  "name": "graduation-project-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "con": "concurrently \"env-cmd ./Backend/config/dev.env nodemon ./Backend/src/app.js\" \"npm run start --prefix frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2"
+  }
+}
